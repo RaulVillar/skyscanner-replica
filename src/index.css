@@ -6,9 +6,18 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  text-align: center;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.main-button-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.main-add {
+  background-image: url(./Pictures/Add.webp);
+  background-repeat: no-repeat;
+  align-content: center;
 }
