@@ -10,10 +10,10 @@ export const Main = () => {
                 <Button icon={<AiFillCar />} info="Alquiler de coches" className="main-renting-button" />
                 <Button icon={<BiWorld />} info="Explora el mundo entero" className="main-explore-button" />
             </div>
-            <div className="main-advertising">
-                <h1 className="main-advertising-title">Viajes para disfrutar del sol</h1>
-                <p className="main-advertising-text">Empieza el verano antes con estos destinos de última hora.</p>
-                <button className="main-advertising-text">Cuéntame más</button>
+            <div className="main-add">
+                <h1 className="main-add-title">Viajes para disfrutar del sol</h1>
+                <p className="main-add-text">Empieza el verano antes con estos destinos de última hora.</p>
+                <button className="main-add-text">Cuéntame más</button>
             </div>
         </div>
     )
