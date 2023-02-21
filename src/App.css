@@ -72,13 +72,42 @@
   align-items: center;
   gap: 10px;
   height: 30vh;
-  background-color: white;
+  background-color: #05203c;
+  color: white;
   border-radius: 10px;
+}
+
+.hotelsPage-content-form div{
+  position: relative;
+}
+
+.hotelsPage-content-form p{
+  position: absolute;
+  top: -50px;
 }
 
 .hotelsPage-content-form input, button{
   font-size: 20px;
 }
+
+
+.hotelsPage-content-form  button{
+  background-color: #0062e3;
+  color: white;
+  height: 50px;
+  padding: 0 20px 0 20px;
+  border: 0;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.hotelsPage-content-form button:hover{
+  background-color: #0048a6;
+}
+
 
 .hotelsPage-p {
   position: relative;
